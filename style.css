@@ -1,19 +1,42 @@
-body{
-    background-color: #f0f8ff ;
-    color: #00008B;
+body {
+    background-color: AliceBlue;
+    color: DarkBlue;
+    font-family: Arial, sans-serif;
 }
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+img{
+    align-items: center;
 }
+  
+a:link, a:visited{
+    color: Crimson;
+    text-decoration: none;
+}
+  
+a:hover, a:active {
+    color: Crimson;
+    text-decoration: underline;
+}
+  
 h2{
-    color: #dc143c;
+    color: Crimson;
 }
-table{
+  
+p{
+    margin: 0;
+}
+
+  
+table {
     width: 400px;
+    margin: 0 auto;
+    border: 0;
 }
-.kep1{
+  
+
+  
+table img {
     width: 230px;
     height: 153px;
+    border: 1px solid #000;
+    float: right;
 }
